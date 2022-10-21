@@ -3,6 +3,7 @@ import java.util.UUID;
 class Calculator {
 
     // Test GitHub Webhook
+    int a;
 
     Calculator(){
 
