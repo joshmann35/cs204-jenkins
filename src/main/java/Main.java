@@ -9,9 +9,6 @@ public class Main {
         while(true) {
             String in = scanner.nextLine();
             String[] inargs = in.split("\\s+");
-            for(String a : inargs) {
-                System.out.println(a);
-            }
             switch (inargs[0]) {
                 case "add":
                     System.out.println(calculator.add(Integer.parseInt(inargs[1]), Integer.parseInt(inargs[2])));
